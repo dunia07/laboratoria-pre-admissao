@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="question" onLoad="questionario();">
+    <div >
+        <div>
+            <h1>Questionário Laboratória</h1>
+            <p>
+                Olá, <span id="name"></span>      
+            </p>
+        </div>        
+        <p class="results" >Resultados</p>
+        <div class="results">
+            <div class="rightAnswer">
+                <p>Respostas Corretas</p>
+                <p class="respostaCorreta" id="resposta1correta"></p>
+                <p class="respostaCorreta" id="resposta2correta"></p>
+                <p class="respostaCorreta" id="resposta3correta"></p>
+            </div>
+            <div class= "wrongAnswer">
+                <p>Respostas Erradas</p>
+                <p class="respostaErrada" id="resposta1errada"></p>
+                <p class="respostaErrada" id="resposta2errada"></p>
+                <p class="respostaErrada" id="resposta3errada"></p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="main.js"> </script>
+</body>
+</html>
